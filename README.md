@@ -39,12 +39,12 @@ npm start
 
 node index.js (com a URL padrão)
 
-c (com a URL de qualquer produto escolhido na netshoes)
+node index.js "https://www.netshoes.com.br/p/camisa-botafogo-i-2526-sn-torcedor-reebok-masculina-D19-809O-028"  (com a URL de qualquer produto escolhido na netshoes)
 
 ---
 
-## 📄 Resultado no console
-
+## Resultado no console
+```
 ==============================================
   Netshoes Web Scraper
 ==============================================
@@ -67,7 +67,7 @@ c (com a URL de qualquer produto escolhido na netshoes)
 
 [Output] Resultado salvo em: output\resultado_1776647651921.json
 [Scraper] Navegador encerrado.
-
+```
 
 > Os últimos 5 resultados são salvos automaticamente na pasta `output/`.
 
