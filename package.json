@@ -1,0 +1,17 @@
+{
+  "name": "netshoes-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper para extração de dados de produtos da Netshoes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js"
+  },
+  "keywords": ["web-scraper", "puppeteer", "netshoes", "cheerio"],
+  "author": "Gabriel Piske",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "puppeteer": "^22.0.0"
+  }
+}
